@@ -19,6 +19,14 @@ public class RealEstate {
     private Double latitude;
     private Double longitude;
 
+    public String getCity() {
+        return city;
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
+
     public RealEstate(String singleData) {
         String[] elements = singleData.split(",");
         this.street = elements[0];
